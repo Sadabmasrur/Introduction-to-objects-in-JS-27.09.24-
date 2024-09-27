@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Objects in JS</h2>
+    <p id="demo"></p>
+
+    <script>
+      var person = {
+        firstname: "Liban",
+        age: 13,
+        enthnicity: "Bengali",
+        color: "Blue",
+      };
+
+      document.getElementById(
+        "demo"
+      ).innerHTML = `I an ${person.firstname} and I am ${person.age} and I am a ${person.enthnicity} and I am wearing a ${person.color} T-shirt`;
+    </script>
+  </body>
+</html>
